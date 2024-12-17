@@ -1,0 +1,167 @@
+.container {
+  max-width: 1020px;
+  height: 670px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f4f7fc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.form label {
+  margin-bottom: 12px;
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  background: #dae1ec;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.search-box input {
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
+.add-btn,
+.close-btn {
+  background-color: #0a65ff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.customer-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.customer-table th,
+.customer-table td {
+  padding: 8px;
+  text-align: center;
+}
+
+.even-row {
+  background-color: white;
+}
+
+.odd-row {
+  background-color: #f4f7fc;
+}
+
+.status-active {
+  color: white;
+  background-color: #0a65ff;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.status-inactive {
+  color: #606f89;
+  border: 1px solid #606f89;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.positive {
+  color: green;
+}
+
+.negative {
+  color: red;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+.userStatus span.active {
+  background-color: rgba(10, 101, 255, 1); /* Ko'k */
+  color: rgba(255, 255, 255, 1);
+}
+
+.userStatus span.inactive {
+  background-color: rgba(224, 26, 26, 1); /* Qizil */
+  color: rgba(255, 255, 255, 1);
+}
+
+.userStatus {
+  width: 100px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.userStatus span {
+  width: 49px;
+  height: 20px;
+  border-radius: 11px;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12.1px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  padding: 5px 4px;
+  cursor: pointer;
+}
+.formButtons button {
+  width: 150px;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+.img-edit {
+  margin-right: 8px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+tbody tr {
+  padding: 5px 15px;
+}
+.save-btn {
+  background-color: #4caf50;
+  color: #ffffff;
+  width: 60px;
+  height: 30px;
+  border-radius: 4px;
+  border: none;
+}
+.formButtons .back,
+.formButtons .addNew {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+.formButtons button:hover {
+  background-color: #45a049;
+}
